@@ -2,24 +2,24 @@ import QuizQuestion from "../core/QuizQuestion";
 
 const quizData: QuizQuestion[] = [
   {
-    question: "What describes a group of objects that are treated the same way as a single instance of the same type of object?",
-    options: ["Composite", "Strategy", "Facade", "Decorator"],
-    correctAnswer: "Composite",
+    question: "Монгол улсын нийслэл?",
+    options: ["Дархан", "Эрдэнэт", "Улаанбаатар", "Хархорин"],
+    correctAnswer: "Улаанбаатар",
   },
   {
-    question: "What add behavior to an individual object, dynamically, without affecting the behavior of other objects from the same class?",
-    options: ["Adapter", "Decorator", "Facade", "Strategy"],
-    correctAnswer: "Decorator",
+    question: "3*9+6=?",
+    options: ["34", "35", "32", "33"],
+    correctAnswer: "33",
   },
   {
-    question: "Which pattern enables selecting an algorithm at runtime by providing a corresponding object implementing the algorithm?",
-    options: ["Adapter", "Iterator", "Strategy", "Composite"],
-    correctAnswer: "Strategy",
+    question: "Цагаан толгойн 9 дахь үсэг?",
+    options: ["И", "З", "Ж", "Е"],
+    correctAnswer: "З",
   },
   {
-    question: "Which of the following traverse a container and access the container's elements without knowing the internals of the container?",
-    options: ["Strategy", "Adapter", "Composite", "Iterator"],
-    correctAnswer: "Iterator",
+    question: "Хэдэн таван хошуу ахлах дэслэгчийг илэрхийлэх вэ?",
+    options: ["3", "1", "4","2"],
+    correctAnswer: "3",
   },
 ];
 

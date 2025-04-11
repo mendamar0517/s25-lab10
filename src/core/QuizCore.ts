@@ -10,6 +10,12 @@ import QuizQuestion from './QuizQuestion';
  * and retrieving information about the current state of the quiz.
  */
 class QuizCore {
+  isQuizCompleted(): boolean {
+    throw new Error('Method not implemented.');
+  }
+  selectAnswer(option: string) {
+    throw new Error('Method not implemented.');
+  }
   private questions: QuizQuestion[];
   private currentQuestionIndex: number;
   private score: number;
@@ -40,7 +46,7 @@ class QuizCore {
   /**
    * Move to the next question.
    */
-  public nextQuestion(): void {      
+  public nextQuestion(): void {
     this.currentQuestionIndex++;
   }
 
